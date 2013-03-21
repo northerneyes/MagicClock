@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Raphaël · Polar Clock</title>
+        <link rel="stylesheet" href="css/demo.css" media="screen">
+        <link rel="stylesheet" href="css/demo-print.css" media="print">
+        <script src="js/raphael.js"></script>
+        <script src="js/popup.js"></script>
+        <style media="screen">
+            #holder {
+                height: 600px;
+                margin: -300px 0 0 -300px;
+                width: 600px;
+            }
+            #time {
+                text-align: center;
+                font: 100 3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="time">
+            <span id="h"></span>:<span id="m"></span>:<span id="s"></span> <span id="ampm"></span> · <span id="d"></span>/<span id="mnth"></span>
+        </div>
+        <div id="holder"></div>
+
+    </body>
+</html>
